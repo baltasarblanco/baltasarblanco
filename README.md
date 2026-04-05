@@ -62,7 +62,7 @@
 
 ## 🛠️ Tecnologías clave
 
-`Rust` • `Async Rust` • `Python` • `SQL` • `FastAPI` • `Pydantic` • `SQLAlchemy` • `Pytest` • `io_uring` • `memfd_create` • `Zero‑copy` • `LSM‑Tree` • `WAL`
+`Rust` • `Python` • `SQL` • `FastAPI` • `Pydantic` • `SQLAlchemy` • `Pytest` • `io_uring` • `Zero‑copy` • `Async Rust` • `memfd_create` • `LSM‑Tree` • `WAL`
 
 ---
 
