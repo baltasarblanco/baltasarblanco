@@ -1,12 +1,3 @@
-<p align="center">
-  <pre>
-   ____        _        _     
-  | __ )  __ _| |_ __ _| |___ 
-  |  _ \ / _` | __/ _` | / __|
-  | |_) | (_| | || (_| | \__ \
-  |____/ \__,_|\__\__,_|_|___/
-  </pre>
-</p>
 <!-- Badges dinámicos -->
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-1.85+-orange?logo=rust" />
@@ -95,7 +86,7 @@
 
 ## 🎯 Filosofía de ingeniería (en mis palabras)
 
-> *"Aprendí Rust porque quiero seguridad extra. Construir un motor de almacenamiento o un compilador DSL me motiva más que una API comercial. Pero cuando hago producto, priorizo el MVP: algo sólido y usable lo antes posible. Prefiero **entender la máquina** que dominarla. La memoria importa: eso lo aprendí en Rust, y muchos que no lo usan no la tienen en cuenta."*
+> *"Aprendí Rust por la seguridad extra. Construir un motor de almacenamiento o un compilador DSL me motiva más que una API comercial. Eso sí, cuando hago producto, priorizo el MVP: sólido y usable cuanto antes. Prefiero entender los procesos generales de un sistema que dominar un lenguaje en particular. Priorizo la velocidad. Ver nanosegundos en Rust te malacostumbra."*
 
 ---
 
