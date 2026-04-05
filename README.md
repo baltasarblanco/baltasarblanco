@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Rust-1.85+-orange?logo=rust" />
   <img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python" />
   <img src="https://img.shields.io/badge/FastAPI-0.115+-teal?logo=fastapi" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
   <img src="https://komarev.com/ghpvc/?username=baltasarblanco&label=Visitas&color=0e75b6&style=flat" />
 </p>
 
@@ -33,7 +32,7 @@
 
 ### 🐍 Bifrost (Python – en construcción)
 
-**Progreso actual:** semana 1/10 · ██░░░░░░░░░░░░░░░░░░░░ 10%
+**Progreso:** semana 1/10 · ██░░░░░░░░░░░░░░░░░░░░ 10%
 
 | Hito | Estado |
 |------|--------|
@@ -51,17 +50,10 @@
 
 ---
 
-## 📊 Actividad reciente
-
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/baltasarblanco/baltasarblanco?style=for-the-badge&logo=github&label=Última%20actualización" />
-</p>
-
----
-
 ## 🛠️ Tecnologías clave
 
-`Rust` • `Python` • `SQL` • `FastAPI` • `Pydantic` • `SQLAlchemy` • `Pytest` • `io_uring` • `Zero‑copy` • `Async Rust` • `memfd_create` • `LSM‑Tree` • `WAL`
+`Rust` • `Python` • `SQL` • `FastAPI` • `Pydantic` • `SQLAlchemy` • `Pytest`  
+`io_uring` • `Zero‑copy` • `Async Rust` • `memfd_create` • `LSM‑Tree` • `WAL`
 
 ---
 
