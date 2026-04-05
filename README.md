@@ -60,7 +60,7 @@
 
 ---
 
-## 🛠️ Tecnologías que domino (con profundidad)
+## 🛠️ Tecnologías que domino
 
 **Lenguajes:**  
 `Rust` · `Python` · `SQL`
