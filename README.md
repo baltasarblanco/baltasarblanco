@@ -90,6 +90,4 @@
 
 ---
 
-<p align="center">
-  <i>“Sin humo. Código que funciona, métricas que respaldan.”</i>
 </p>
