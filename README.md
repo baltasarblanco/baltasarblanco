@@ -54,7 +54,7 @@
 ## 📊 Actividad reciente
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=baltasarblanco&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=baltasarblanco&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=baltasarblanco&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
