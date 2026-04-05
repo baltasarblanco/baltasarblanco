@@ -92,8 +92,8 @@ Soy un ingeniero que opera en **dos capas**:
 ## 📫 Contacto y redes
 
 - **Email:** baltablanco9008@gmail.com  
-- **LinkedIn:** [baltasar_blanco](https://linkedin.com/in/baltasarblanco)  
-- **Twitter/X:** [@baltasarblanco_](https://twitter.com/baltasarblanco_)  
+- **LinkedIn:** [baltasar_blanco](https://linkedin.com/in/baltasarblanco) *(si tenés, ponelo; si no, crealo)*  
+- **Instagram:** [@baltasar_blanco](https://instagram.com/baltasar_blanco)  
 - **GitHub:** [baltasarblanco](https://github.com/baltasarblanco) (estás aquí)
 
 ---
