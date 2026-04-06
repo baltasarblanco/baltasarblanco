@@ -50,10 +50,6 @@
 **🔥 Estado actual:**  
 La infraestructura base ya está lista: contenedores Docker comunicados, PostgreSQL con secretos en `.env`, migraciones automáticas con Alembic, y la API corriendo sin errores.
 
-## 🏗️ Arquitectura del Sistema
-![Bifrost Architecture](./docs/bifrost-architecture.png)
-*Orquestación local mediante Docker Compose con persistencia en volúmenes.*
-
 **🚀 Próximo paso:**  
 Implementar JWT (JSON Web Tokens) para proteger las rutas y manejar sesiones de usuarios.
 
