@@ -32,28 +32,29 @@
 
 ### 🐍 Bifrost (Python – en construcción)
 
-**Progreso:** semana 1/10 · ██░░░░░░░░░░░░░░░░░░░░ 10%
+**Progreso:** semana 2/10 · ████░░░░░░░░░░░░░░░░ 20%
 
-| Hito | Estado |
-|------|--------|
+| Avance | Estado |
+|--------|--------|
 | CLI resiliente (httpx) | ✅ |
-| FastAPI + Swagger | ⏳ |
-| SQLite + SQLAlchemy | ⏳ |
-| PostgreSQL + Alembic | ⏳ |
-| JWT auth | ⏳ |
-| Pytest >70% | ⏳ |
-| Docker + Makefile | ⏳ |
-| Reservas + timezones | ⏳ |
-| `SELECT FOR UPDATE` | ⏳ |
+| FastAPI + Swagger | ✅ |
+| PostgreSQL + SQLAlchemy | ✅ |
+| Migraciones (Alembic) | ✅ |
+| Docker Compose (multi‑contenedor) | ✅ |
+| Identidad (hashing Bcrypt) | ✅ |
+| JWT Auth | ⏳ |
+| Reservas + timezones (UTC) | ⏳ |
+| Concurrencia (`SELECT FOR UPDATE`) | ⏳ |
+| Pytest >70% cobertura | ⏳ |
 
-> 🔥 Próximo: terminar CLI y empezar FastAPI.
+**🔥 Estado actual:**  
+La infraestructura base ya está lista: contenedores Docker comunicados, PostgreSQL con secretos en `.env`, migraciones automáticas con Alembic, y la API corriendo sin errores.
 
----
+**🚀 Próximo paso:**  
+Implementar JWT (JSON Web Tokens) para proteger las rutas y manejar sesiones de usuarios.
 
-## 🛠️ Tecnologías clave
-
-`Rust` • `Python` • `SQL` • `FastAPI` • `Pydantic` • `SQLAlchemy` • `Pytest`  
-`io_uring` • `Zero‑copy` • `Async Rust` • `memfd_create` • `LSM‑Tree` • `WAL`
+**🛠️ Tecnologías clave**  
+`Rust` · `Python` · `SQL` · `FastAPI` · `Pydantic V2` · `PostgreSQL` · `Alembic` · `Docker` · `io_uring` · `async` · `Bcrypt` · `LSM‑Tree` · `WAL`
 
 ---
 
