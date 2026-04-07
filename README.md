@@ -30,9 +30,9 @@
 - **[celer_mock](https://github.com/baltasarblanco/celer_mock)** – CEP zero‑copy (debugging ring buffer) 🟡  
 - **[vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure)** – Dashboard RYŪ (backend pendiente) 🟡  
 
-### 🐍 Bifrost (Python – en construcción)
+### 🐍 Bifrost (Python – Motor transaccional)
 
-**Progreso:** semana 2/10 · ████░░░░░░░░░░░░░░░░ 20%
+**Progreso:** semana 8/10 · ████████████████░░░░ 80%
 
 | Avance | Estado |
 |--------|--------|
@@ -42,20 +42,25 @@
 | Migraciones (Alembic) | ✅ |
 | Docker Compose (multi‑contenedor) | ✅ |
 | Identidad (hashing Bcrypt) | ✅ |
-| JWT Auth | ⏳ |
-| Reservas + timezones (UTC) | ⏳ |
-| Concurrencia (`SELECT FOR UPDATE`) | ⏳ |
-| Pytest >70% cobertura | ⏳ |
+| JWT Auth | ✅ |
+| Reservas + timezones (UTC) | ✅ |
+| Concurrencia (`SELECT FOR UPDATE`) | ✅ |
+| Pytest >90% cobertura | ✅ |
+| Pruebas estrés (1250 RPS) | ✅ |
+| Ruff linting + format | ✅ |
+| CI/CD (GitHub Actions) | ⏳ |
 
 **🔥 Estado actual:**  
-La infraestructura base ya está lista: contenedores Docker comunicados, PostgreSQL con secretos en `.env`, migraciones automáticas con Alembic, y la API corriendo sin errores.
+Motor de reservas funcionando con bloqueos pesimistas (sin overbooking).  
+API stateless con JWT. Tests de integración aislados en memoria RAM.  
+Rendimiento verificado: **1250 RPS** (Locust, 8 vCPUs / 16GB RAM).  
+Cobertura de código: **90%** (pytest --cov).  
+Calidad estática: **Ruff** (+700 reglas PEP-8).
 
 **🚀 Próximo paso:**  
-Implementar JWT (JSON Web Tokens) para proteger las rutas y manejar sesiones de usuarios.
+Pipeline CI/CD con GitHub Actions para validación automática en cada push.
 
-**🛠️ Tecnologías clave**  
-`Rust` · `Python` · `SQL` · `FastAPI` · `Pydantic V2` · `PostgreSQL` · `Alembic` · `Docker` · `io_uring` · `async` · `Bcrypt` · `LSM‑Tree` · `WAL`
-
+**🛠️ Tecnologías clave:** Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic V2, PostgreSQL 15, Docker, Ruff, Locust.
 ---
 
 ## 📫 Contacto
