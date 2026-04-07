@@ -64,7 +64,16 @@ Calidad estática: **Ruff** (+700 reglas PEP-8).
 **🚀 Próximo paso:**  
 Pipeline CI/CD con GitHub Actions para validación automática en cada push.
 
-**🛠️ Tecnologías clave:** Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic V2, PostgreSQL 15, Docker, Ruff, Locust, Alembic.
+**🛠️ Tecnologías clave:**  
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0-red?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-2.5-5C2D91?style=flat-square&logo=pydantic&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-000000?style=flat-square&logo=ruff&logoColor=white)
+![Locust](https://img.shields.io/badge/Locust-2.31-2E8B57?style=flat-square&logo=locust&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-3776AB?style=flat-square&logo=python&logoColor=white)
 ---
 
 ## 📫 Contacto
