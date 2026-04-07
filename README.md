@@ -32,7 +32,7 @@
 
 ### 🐍 Bifrost (Python – Motor transaccional)
 
-**Progreso:** semana 8/10 · ████████████████░░░░ 80%
+**Progreso:** semana 9/10 · ██████████████████░░ 90%
 
 | Avance | Estado |
 |--------|--------|
@@ -42,17 +42,21 @@
 | Migraciones (Alembic) | ✅ |
 | Docker Compose (multi‑contenedor) | ✅ |
 | Identidad (hashing Bcrypt) | ✅ |
-| JWT Auth | ✅ |
+| JWT Auth + roles (User/Admin) | ✅ |
 | Reservas + timezones (UTC) | ✅ |
 | Concurrencia (`SELECT FOR UPDATE`) | ✅ |
+| Soft Delete + integridad referencial | ✅ |
+| Paginación (offset/limit) | ✅ |
 | Pytest >90% cobertura | ✅ |
 | Pruebas estrés (1250 RPS) | ✅ |
 | Ruff linting + format | ✅ |
 | CI/CD (GitHub Actions) | ⏳ |
 
 **🔥 Estado actual:**  
-Motor de reservas funcionando con bloqueos pesimistas (sin overbooking).  
-API stateless con JWT. Tests de integración aislados en memoria RAM.  
+Motor de reservas con bloqueos pesimistas (sin overbooking).  
+API stateless con JWT y diferenciación de roles (Usuario/Admin).  
+Soft Delete implementado, paginación lista.  
+Tests de integración aislados en memoria RAM.  
 Rendimiento verificado: **1250 RPS** (Locust, 8 vCPUs / 16GB RAM).  
 Cobertura de código: **90%** (pytest --cov).  
 Calidad estática: **Ruff** (+700 reglas PEP-8).
@@ -60,7 +64,7 @@ Calidad estática: **Ruff** (+700 reglas PEP-8).
 **🚀 Próximo paso:**  
 Pipeline CI/CD con GitHub Actions para validación automática en cada push.
 
-**🛠️ Tecnologías clave:** Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic V2, PostgreSQL 15, Docker, Ruff, Locust.
+**🛠️ Tecnologías clave:** Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic V2, PostgreSQL 15, Docker, Ruff, Locust, Alembic.
 ---
 
 ## 📫 Contacto
