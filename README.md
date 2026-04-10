@@ -30,40 +30,43 @@
 - **[celer_mock](https://github.com/baltasarblanco/celer_mock)** – CEP zero‑copy (debugging ring buffer) 🟡  
 - **[vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure)** – Dashboard RYŪ (backend pendiente) 🟡  
 
-### 🐍 Bifrost (Python – Motor transaccional)
+## 🐍 Bifrost — Motor Transaccional con IA (Python)
 
-**Progreso:** semana 9/10 · ██████████████████░░ 90%
+### 📊 Progreso del Desarrollo
 
-| Avance | Estado |
-|--------|--------|
-| CLI resiliente (httpx) | ✅ |
-| FastAPI + Swagger | ✅ |
-| PostgreSQL + SQLAlchemy | ✅ |
-| Migraciones (Alembic) | ✅ |
-| Docker Compose (multi‑contenedor) | ✅ |
-| Identidad (hashing Bcrypt) | ✅ |
-| JWT Auth + roles (User/Admin) | ✅ |
-| Reservas + timezones (UTC) | ✅ |
-| Concurrencia (`SELECT FOR UPDATE`) | ✅ |
-| Soft Delete + integridad referencial | ✅ |
-| Paginación (offset/limit) | ✅ |
-| Pytest >90% cobertura | ✅ |
-| Pruebas estrés (1250 RPS) | ✅ |
-| Ruff linting + format | ✅ |
-| CI/CD (GitHub Actions) | ⏳ |
+**Semana 10/11**  
+`████████████████████░ 95%`
 
-**🔥 Estado actual:**  
-Motor de reservas con bloqueos pesimistas (sin overbooking).  
-API stateless con JWT y diferenciación de roles (Usuario/Admin).  
-Soft Delete implementado, paginación lista.  
-Tests de integración aislados en memoria RAM.  
-Rendimiento verificado: **1250 RPS** (Locust, 8 vCPUs / 16GB RAM).  
-Cobertura de código: **90%** (pytest --cov).  
-Calidad estática: **Ruff** (+700 reglas PEP-8).
+| Módulo | Característica | Estado |
+| :--- | :--- | :---: |
+| **Core API** | FastAPI + Swagger (v1.0.0 Enterprise) | ✅ |
+| **Inteligencia Artificial** | AI Assistant (Gemini + Intent Extraction & ISO 8601) | ✅ |
+| **Base de Datos** | PostgreSQL + SQLAlchemy (Strict Constraints) | ✅ |
+| **Optimización** | SQL Tuning (Índices Compuestos & Enums) | ✅ |
+| **Arquitectura** | Enterprise Mixins (Auditoría automática Created/Updated) | ✅ |
+| **Migraciones** | Alembic Clean History (Control de versiones de esquema) | ✅ |
+| **Contenerización** | Docker Pro (Multi-stage builds optimizados) | ✅ |
+| **Seguridad** | JWT Auth + Roles (User/Admin) | ✅ |
+| **Integridad** | Concurrencia (SELECT FOR UPDATE) & Soft Delete | ✅ |
+| **Calidad** | Pytest (100% Logic Coverage) | ✅ |
+| **Linting** | Ruff (Zero Errors Policy) | ✅ |
+| **Cloud** | Despliegue en AWS (RDS / App Runner) | ⏳ *Próximo* |
+| **CI/CD** | Pipeline GitHub Actions (Auto-deploy) | ⏳ *Próximo* |
 
-**🚀 Próximo paso:**  
-Pipeline CI/CD con GitHub Actions para validación automática en cada push.
+---
 
+### 🔥 Estado Actual del Proyecto
+
+- **Motor de reservas blindado**: Lógica transaccional robusta con control de concurrencia (`SELECT FOR UPDATE`).
+- **Asistente de IA integrado**: Normalización automática de lenguaje natural a formato `ISO 8601` mediante Gemini.
+- **Arquitectura Enterprise**: Mixins de auditoría (`created_at`, `updated_at`) y tipos de datos estrictos (`Enums`, `CheckConstraints`).
+- **Rendimiento optimizado**: Base de datos afinada con índices compuestos para búsquedas temporales de alta velocidad.
+- **Código inmaculado**: Validación continua con `Ruff` (cero errores) y cobertura de tests lógicos al 100% con `Pytest`.
+- **Contenerización profesional**: `Dockerfile` multi-stage listo para orquestación en la nube.
+
+### 🚀 Próximo Paso
+
+> **Despliegue en AWS** (RDS + App Runner) y **automatización total** del ciclo de vida con **GitHub Actions**.
 **🛠️ Tecnologías clave:**  
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white)
