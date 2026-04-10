@@ -63,10 +63,10 @@
 - **Rendimiento optimizado**: Base de datos afinada con índices compuestos para búsquedas temporales de alta velocidad.
 - **Código inmaculado**: Validación continua con `Ruff` (cero errores) y cobertura de tests lógicos al 100% con `Pytest`.
 - **Contenerización profesional**: `Dockerfile` multi-stage listo para orquestación en la nube.
-
 ### 🚀 Próximo Paso
 
 > **Despliegue en AWS** (RDS + App Runner) y **automatización total** del ciclo de vida con **GitHub Actions**.
+
 **🛠️ Tecnologías clave:**  
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -77,7 +77,6 @@
 ![Ruff](https://img.shields.io/badge/Ruff-000000?style=flat-square&logo=ruff&logoColor=white)
 ![Locust](https://img.shields.io/badge/Locust-2.31-2E8B57?style=flat-square&logo=locust&logoColor=white)
 ![Alembic](https://img.shields.io/badge/Alembic-3776AB?style=flat-square&logo=python&logoColor=white)
----
 
 ## 📫 Contacto
 
