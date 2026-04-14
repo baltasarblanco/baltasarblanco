@@ -1,5 +1,5 @@
 <h1 align="center">Baltasar Blanco</h1>
-<h3 align="center">Systems Engineer · Rust Core · Python Tactical</h3>
+<h3 align="center">Backend Developer | Rust & Python | Building resilient systems</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-1.85+-orange?logo=rust" />
