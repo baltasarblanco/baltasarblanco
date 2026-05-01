@@ -13,9 +13,3 @@
 
 ### 🐍 Bifrost (Python)
 - [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — AI-powered booking API · 95% done
-
----
-
-## 📫 Contact
-
-[Email](mailto:baltablanco9008@gmail.com) · [LinkedIn](https://www.linkedin.com/in/baltasarblanco/) · [GitHub](https://github.com/baltasarblanco)
