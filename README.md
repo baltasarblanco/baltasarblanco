@@ -1,46 +1,22 @@
 <h1 align="center">Baltasar Blanco</h1>
-<h3 align="center">Backend Developer · Rust & Python · Building resilient systems</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-1.85+-orange?logo=rust" />
-  <img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python" />
-  <img src="https://img.shields.io/badge/FastAPI-0.115+-teal?logo=fastapi" />
-  <img src="https://komarev.com/ghpvc/?username=baltasarblanco&label=Views&color=0e75b6&style=flat" />
-</p>
+<p align="center"><em>Backend Developer · Rust & Python · Resilient systems</em></p>
+<p align="center"><img src="https://komarev.com/ghpvc/?username=baltasarblanco&label=Views&color=0e75b6&style=flat" /></p>
 
 ---
 
-## 🧠 Dual Stack
+**Dual stack:** L7 Python/FastAPI · L3/L4 Rust/io_uring
 
-> *"Ship fast with Python. Go deep with Rust."*
-
-| Layer | Stack | Purpose |
-|-------|-------|---------|
-| Application (L7) | Python · FastAPI · PostgreSQL · Pytest | Fast, testable business value |
-| Infrastructure (L3/L4) | Rust · io_uring · zero‑copy IPC | Low latency, bare‑metal control |
-
----
-
-## 🧠 Dual Stack
-**Application (L7):** Python · FastAPI · PostgreSQL | **Infra (L3/L4):** Rust · io_uring · zero-copy IPC
-
----
-
-## ⚙️ Featured Projects
+## Featured
 
 ### 🦀 Vanguard (Rust)
 - **[aegis-proxy](https://github.com/baltasarblanco/aegis-proxy)** — L4 TCP proxy · 8.4k RPS · P99 <1ms · thread-per-core · zero-alloc
 - **[chronos_lsm](https://github.com/baltasarblanco/chronos_lsm)** — LSM-tree KV · 15k reads/s · 10.5k writes/s · WAL · blooms
-- **[celer_mock](https://github.com/baltasarblanco/celer_mock)** — CEP engine · zero-copy ring buffer · *status: core stable*
+- **[celer_mock](https://github.com/baltasarblanco/celer_mock)** — CEP engine · zero-copy ring buffer · *stable core*
 - **[vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure)** — RYŪ dashboard · frontend live · backend in progress
 
 ### 🐍 Bifrost (Python)
-**[bifrost-api v1.0.0](https://github.com/baltasarblanco/bifrost-api)** — AI-powered booking API · Gemini intent extraction · pessimistic locks · 95% complete
-- Core: FastAPI · PostgreSQL · JWT · Alembic · Docker
-- CI/CD & AWS deployment in progress
-
-*→ [Ver repositorio](https://github.com/baltasarblanco/bifrost-api)*
-
+**[bifrost-api v1.0.0](https://github.com/baltasarblanco/bifrost-api)** — AI-powered booking API · Gemini intent extraction · pessimistic locks · 95% done  
+Stack: FastAPI · PostgreSQL · JWT · Alembic · Docker · AWS (in progress)
 <p>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white" />
