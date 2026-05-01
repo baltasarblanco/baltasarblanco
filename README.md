@@ -34,11 +34,11 @@
 
 ### 🐍 Bifrost — AI‑Powered Transactional Engine
 Full‑stack booking API with natural language intent extraction, pessimistic concurrency control, and enterprise‑grade architecture.  
-[![bifrost-api](https://img.shields.io/badge/bifrost--api-v1.0.0-blue)](https://github.com/baltasarblanco/bifrost-api)
 
-**Overall progress** ![95%](https://progress-bar.dev/95?title=completed)
+[![bifrost-api v1.0.0](https://img.shields.io/badge/bifrost--api-v1.0.0-blue?style=flat-square&logo=github)](https://github.com/baltasarblanco/bifrost-api)
+![Progress](https://img.shields.io/badge/Overall_Progress-95%25-brightgreen?style=flat-square)
 
-> 🧠 Now working on: AWS deployment · CI/CD pipeline
+> 🧠 *Now working on: AWS deployment · CI/CD pipeline*
 
 ---
 
@@ -54,11 +54,10 @@ Full‑stack booking API with natural language intent extraction, pessimistic co
 - [x] **Data Integrity** – `SELECT FOR UPDATE`, soft delete
 - [x] **Testing** – Pytest with 100% logic coverage
 - [x] **Linting** – Ruff, zero‑error policy
-- [ ] **Cloud** – AWS deploy with RDS + App Runner (on `main` branch soon)
-- [ ] **CI/CD** – GitHub Actions pipeline (draft in #12)
+- [ ] **Cloud** – AWS deploy with RDS + App Runner (*on `main` branch soon*)
+- [ ] **CI/CD** – GitHub Actions pipeline (*draft in #12*)
 
 *¿Te interesa la arquitectura? → [Ver repositorio](https://github.com/baltasarblanco/bifrost-api)*
-
 <p>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white" />
