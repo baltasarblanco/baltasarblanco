@@ -25,10 +25,30 @@
 
 ### 🦀 Vanguard — Systems Programming (Rust)
 
-- **[aegis-proxy](https://github.com/baltasarblanco/aegis-proxy)** — L4 TCP proxy · +8.4k RPS · P99 <1 ms · thread‑per‑core · zero‑alloc hot path ✅
-- **[chronos_lsm](https://github.com/baltasarblanco/chronos_lsm)** — LSM‑Tree key‑value store · WAL · bloom filters · compaction · ~15k reads/s · ~10.5k writes/s ✅
-- **[celer_mock](https://github.com/baltasarblanco/celer_mock)** — Complex Event Processing engine · zero‑copy ring buffer 🟡
-- **[vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure)** — RYŪ monitoring dashboard · frontend live, backend in progress 🟡
+- **[aegis-proxy](https://github.com/baltasarblanco/aegis-proxy)**  
+  L4 TCP proxy · thread‑per‑core · zero‑alloc hot path  
+  ![RPS](https://img.shields.io/badge/RPS-8.4k-brightgreen)
+  ![P99](https://img.shields.io/badge/P99-%3C1ms-brightgreen)
+  ![status](https://img.shields.io/badge/status-production%20ready-blue)
+
+- **[chronos_lsm](https://github.com/baltasarblanco/chronos_lsm)**  
+  LSM‑Tree KV store · WAL · bloom filters · compaction  
+  ![reads](https://img.shields.io/badge/reads-15k%2Fs-brightgreen)
+  ![writes](https://img.shields.io/badge/writes-10.5k%2Fs-brightgreen)
+  ![status](https://img.shields.io/badge/status-benched-blue)
+
+- **[celer_mock](https://github.com/baltasarblanco/celer_mock)**  
+  Complex Event Processing engine · zero‑copy ring buffer  
+  ![status](https://img.shields.io/badge/status-core%20stable-yellow)
+  > 🧠 *Now working on: CELER integration tests & benchmarks*
+
+- **[vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure)**  
+  RYŪ monitoring dashboard · frontend live, backend in progress  
+  ![frontend](https://img.shields.io/badge/frontend-live-brightgreen)
+  ![backend](https://img.shields.io/badge/backend-in%20progress-yellow)
+  > 🧠 *Now working on: CELER integration for backend metrics*
+
+*⚡ Badge key: `brightgreen`=stable/fast, `blue`=ready, `yellow`=in progress*
 
 ---
 
