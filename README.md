@@ -32,27 +32,32 @@
 
 ---
 
-### 🐍 Bifrost — AI‑Powered Transactional Engine (Python)
+### 🐍 Bifrost — AI‑Powered Transactional Engine
+Full‑stack booking API with natural language intent extraction, pessimistic concurrency control, and enterprise‑grade architecture.  
+[![bifrost-api](https://img.shields.io/badge/bifrost--api-v1.0.0-blue)](https://github.com/baltasarblanco/bifrost-api)
 
-Full‑stack booking API with natural language processing, pessimistic concurrency control, and enterprise‑grade architecture.
+**Overall progress** ![95%](https://progress-bar.dev/95?title=completed)
 
-**Week 10 / 11** &nbsp; `████████████████████░ 95%`
+> 🧠 Now working on: AWS deployment · CI/CD pipeline
 
-| Module | Feature | Status |
-| :--- | :--- | :---: |
-| **Core API** | FastAPI + Swagger (v1.0.0) | ✅ |
-| **AI Assistant** | Gemini · intent extraction · ISO 8601 normalization | ✅ |
-| **Database** | PostgreSQL + SQLAlchemy · strict constraints | ✅ |
-| **Performance** | Composite indexes · enum types · query tuning | ✅ |
-| **Architecture** | Audit mixins (`created_at` / `updated_at`) · type‑safe models | ✅ |
-| **Migrations** | Alembic · clean version history | ✅ |
-| **Containers** | Docker · optimized multi‑stage builds | ✅ |
-| **Auth** | JWT · role‑based access (User / Admin) | ✅ |
-| **Data Integrity** | `SELECT FOR UPDATE` · soft delete | ✅ |
-| **Testing** | Pytest · 100% logic coverage | ✅ |
-| **Linting** | Ruff · zero‑error policy | ✅ |
-| **Cloud** | AWS deploy (RDS + App Runner) | ⏳ Next |
-| **CI/CD** | GitHub Actions pipeline | ⏳ Next |
+---
+
+### 🚧 Development Roadmap
+- [x] **Core API** – FastAPI + Swagger (v1.0.0)
+- [x] **AI Assistant** – Gemini intent extraction + ISO 8601 normalization
+- [x] **Database** – PostgreSQL + SQLAlchemy with strict constraints
+- [x] **Performance** – Composite indexes, native enums, query tuning
+- [x] **Architecture** – Audit mixins (`created_at`/`updated_at`), type‑safe models
+- [x] **Migrations** – Alembic with clean version history
+- [x] **Containers** – Docker multi‑stage builds
+- [x] **Auth** – JWT + role‑based access (User/Admin)
+- [x] **Data Integrity** – `SELECT FOR UPDATE`, soft delete
+- [x] **Testing** – Pytest with 100% logic coverage
+- [x] **Linting** – Ruff, zero‑error policy
+- [ ] **Cloud** – AWS deploy with RDS + App Runner (on `main` branch soon)
+- [ ] **CI/CD** – GitHub Actions pipeline (draft in #12)
+
+*¿Te interesa la arquitectura? → [Ver repositorio](https://github.com/baltasarblanco/bifrost-api)*
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
