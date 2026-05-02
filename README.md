@@ -14,8 +14,5 @@
 ### 🐍 Bifrost (Python)
 - [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — AI-powered booking API · 95% done
 
-### 🔧 Open Source Contributions
-Actively contributing to and with PRs under review in:
-- **hashicorp/terraform-provider-aws** (CloudFormation, EC2, SNS)
-- **Gentleman-Programming/gentle-ai** (CLI features & fixes)
-- **lingdojo/kana-dojo** (UI themes - Merged)
+---
+🟢 **Open Source Status: ACTIVE** — Currently contributing to `hashicorp/terraform-provider-aws` and others.
