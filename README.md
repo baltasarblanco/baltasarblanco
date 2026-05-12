@@ -1,6 +1,7 @@
 <h1 align="center">Baltasar Blanco</h1>
+<p align="center"><em>Junior backend developer · Buenos Aires</em></p>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=2000&pause=500&color=5C8D89&center=true&vCenter=true&width=400&lines=Backend+Developer;Rust+%7C+Python;Building+resilient+systems" alt="Typing SVG" />
+  <code>Python (FastAPI)</code> · <code>Learning Rust</code> · <code>Reconverted from audio engineering</code>
 </p>
 
 ---
@@ -15,4 +16,8 @@
 - [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — AI-powered booking API · 95% done
 
 ---
-🟢 **Open Source Status: ACTIVE** — Currently contributing to `hashicorp/terraform-provider-aws` and others.
+🟢 **Open Source Status: ACTIVE** — Focused contributions to three high-quality projects rather than scattered drive-bys:
+
+- [`astral-sh/ruff`](https://github.com/astral-sh/ruff) — PR [#25086](https://github.com/astral-sh/ruff/pull/25086) in active review with maintainers (PTH101 fix for attribute-access file descriptors)
+- [`swc-project/swc`](https://github.com/swc-project/swc) — PR [#11839](https://github.com/swc-project/swc/pull/11839) merged (property mangling fix in `es/minifier`)
+- [`gin-gonic/gin`](https://github.com/gin-gonic/gin) — exploring contribution opportunities
