@@ -1,5 +1,5 @@
 <h1 align="center">Baltasar Blanco</h1>
-<p align="center"><em>Junior backend developer · Buenos Aires</em></p>
+<p align="center"><em>Backend developer · Buenos Aires</em></p>
 <p align="center">
   <code>Python (FastAPI)</code> · <code>Learning Rust</code> · <code>Reconverted from audio engineering</code>
 </p>
