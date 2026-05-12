@@ -7,13 +7,15 @@
 ---
 
 ### 🦀 Vanguard (Rust)
-- [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 proxy · 8.4k RPS · P99 <1ms · thread-per-core
-- [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM-tree KV · 15k reads/s · 10.5k writes/s
-- [celer_mock](https://github.com/baltasarblanco/celer_mock) — CEP engine · zero-copy ring buffer
-- [vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure) — RYŪ dashboard · frontend live
+*Workspace integrado · ABI compartido (`shared-ipc`) · OpenTelemetry cross-process*
+
+- [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 proxy · io_uring · thread-per-core · ~8.4k RPS loopback · P99 <1ms
+- [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM-tree KV · WAL + bloom filters · ~15k reads/s · ~10.5k writes/s
+- [celer_mock](https://github.com/baltasarblanco/celer_mock) — Cross-process event consumer · memfd + SCM_RIGHTS · ~30M ev/s
+- [vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure) — Workspace root · contiene `shared-ipc` · demo frontend RYŪ
 
 ### 🐍 Bifrost (Python)
-- [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — AI-powered booking API · 95% done
+- [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — B2B booking API · FastAPI + PostgreSQL · concurrencia pesimista · LLM intent extraction (Gemini)
 
 ---
 🟢 **Open Source Status: ACTIVE** — Focused contributions to three high-quality projects rather than scattered drive-bys:
