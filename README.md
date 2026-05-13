@@ -7,7 +7,7 @@
 ---
 
 ### 🦀 Vanguard (Rust)
-*Workspace integrado · ABI compartido (`shared-ipc`) · OpenTelemetry cross-process*
+*Workspace integrado · ABI compartido (`shared-ipc`) · OpenTelemetry cross-process validado en Jaeger*
 
 - [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 proxy · io_uring · thread-per-core · ~8.4k RPS loopback · P99 <1ms
 - [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM-tree KV · WAL + bloom filters · ~15k reads/s · ~10.5k writes/s
