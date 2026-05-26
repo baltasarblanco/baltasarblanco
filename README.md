@@ -1,7 +1,7 @@
 <h1 align="center">Baltasar Blanco</h1>
 <p align="center"><em>Backend developer · Buenos Aires</em></p>
 <p align="center">
-  <code>Python (FastAPI)</code> · <code>Rust</code> · <code>Reconverted from audio engineering</code>
+  <code>Rust</code> · <code>Python (Fast API)</code> · <code>Reconverted from audio engineering</code>
 </p>
 
 ---
