@@ -37,9 +37,3 @@ Benchmarks in them are loopback, single machine.
 Seven years in audio engineering before this.
 
 Buenos Aires · [LinkedIn](https://www.linkedin.com/in/baltasarblanco/) · baltasarblanco.dev@gmail.com
-
----
-
-Before software: seven years in professional audio engineering, mastering.
-
-Buenos Aires, Argentina · [LinkedIn](https://www.linkedin.com/in/baltasarblanco/) · baltasarblanco.dev@gmail.com
