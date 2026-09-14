@@ -1,11 +1,5 @@
 # Baltasar Blanco
 
-Backend developer. Rust · Python · Go.
-I contribute to three open source projects and build systems tooling to learn.
-
----
-# Baltasar Blanco
-
 Rust · Python · Go
 
 ## Open source
