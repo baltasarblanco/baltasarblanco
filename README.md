@@ -1,12 +1,4 @@
-# Baltasar Blanco
-
-Rust · Python · Go
-
 ## Open source
-
-I send patches to three projects and keep going back to the same three.
-Usually the same kind of bug: a rule that's right in general and wrong at
-some boundary — scope, aliasing, an assumption that stops holding.
 
 **[astral-sh/ruff](https://github.com/astral-sh/ruff)** — Python linter, Rust.
 When a fix is safe enough to apply unasked. Example: [`FURB101`/`FURB103` with a file descriptor](https://github.com/astral-sh/ruff/pull/27643).
@@ -33,7 +25,3 @@ Benchmarks in them are loopback, single machine.
 - [celer_mock](https://github.com/baltasarblanco/celer_mock) — cross-process events over `memfd` + `SCM_RIGHTS`
 - [vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure) — workspace root, demo frontend
 - [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — booking API, FastAPI + PostgreSQL
-
-Seven years in audio engineering before this.
-
-Buenos Aires · [LinkedIn](https://www.linkedin.com/in/baltasarblanco/) · baltasarblanco.dev@gmail.com
