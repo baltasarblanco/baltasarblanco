@@ -19,11 +19,13 @@ Minifier and renamer. Example: [top-level declarations only reachable through di
 
 [Open PRs](https://github.com/search?q=is%3Apr+author%3Abaltasarblanco+is%3Aopen&type=pullrequests)
 
-## Mine
+<details>
+<summary><sub>Mine — Jan–Apr 2026, before I moved my time upstream. Not maintained.</sub></summary>
 
-Jan–Apr 2026, before I moved my time upstream. Not maintained.
-Benchmarks in them are loopback, single machine.
+<sub>Benchmarks in them are loopback, single machine.</sub>
 
 - [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 TCP proxy, `io_uring`, thread-per-core
 - [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM key-value store, WAL, bloom filters, compaction
 - [celer_mock](https://github.com/baltasarblanco/celer_mock) — cross-process events over `memfd` + `SCM_RIGHTS`
+
+</details>
