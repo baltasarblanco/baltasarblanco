@@ -1,7 +1,7 @@
 ## Open source
 
 **[golemcloud/golem](https://github.com/golemcloud/golem)** — Distributed WebAssembly agent platform, Rust.
-Standalone server. Example: [shutting down cleanly on SIGINT/SIGTERM](https://github.com/golemcloud/golem/pull/3799).
+Standalone server. Example: [handling SIGINT/SIGTERM](https://github.com/golemcloud/golem/pull/3799).
 [Merged](https://github.com/search?q=repo%3Agolemcloud%2Fgolem+is%3Apr+author%3Abaltasarblanco+is%3Amerged&type=pullrequests)
 
 **[astral-sh/ruff](https://github.com/astral-sh/ruff)** — Python linter, Rust.
@@ -27,5 +27,3 @@ Benchmarks in them are loopback, single machine.
 - [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 TCP proxy, `io_uring`, thread-per-core
 - [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM key-value store, WAL, bloom filters, compaction
 - [celer_mock](https://github.com/baltasarblanco/celer_mock) — cross-process events over `memfd` + `SCM_RIGHTS`
-- [vanguard-infrastructure](https://github.com/baltasarblanco/vanguard-infrastructure) — workspace root, demo frontend
-- [bifrost-api](https://github.com/baltasarblanco/bifrost-api) — booking API, FastAPI + PostgreSQL
