@@ -1,0 +1,42 @@
+name: PR badges
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # todos los días, 03:17 en Buenos Aires
+  workflow_dispatch:        # para correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_USER: baltasarblanco
+        run: |
+          mkdir -p badges
+          count() {
+            gh api -X GET search/issues \
+              -f q="is:pr author:$GH_USER $1 -user:$GH_USER" \
+              --jq .total_count
+          }
+          merged=$(count is:merged)
+          open=$(count is:open)
+          printf '{"schemaVersion":1,"label":"merged PRs","message":"%s","color":"8957e5"}\n' "$merged" > badges/merged.json
+          printf '{"schemaVersion":1,"label":"open PRs","message":"%s","color":"2da44e"}\n'   "$open"   > badges/open.json
+          cat badges/*.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add badges
+          if ! git diff --cached --quiet; then
+            git commit -m "Update PR badges"
+            git push
+          fi
