@@ -7,13 +7,3 @@
 
 [![merged PRs](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbaltasarblanco%2Fbaltasarblanco%2Fmain%2Fbadges%2Fmerged.json)](https://github.com/search?q=is%3Apr+author%3Abaltasarblanco+is%3Amerged+-user%3Abaltasarblanco&type=pullrequests) [![open PRs](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbaltasarblanco%2Fbaltasarblanco%2Fmain%2Fbadges%2Fopen.json)](https://github.com/search?q=is%3Apr+author%3Abaltasarblanco+is%3Aopen+-user%3Abaltasarblanco&type=pullrequests)
 
-<details>
-<summary><sub>Mine — Jan–Apr 2026, before I moved my time upstream. Not maintained.</sub></summary>
-
-<sub>Benchmarks in them are loopback, single machine.</sub>
-
-- [aegis-proxy](https://github.com/baltasarblanco/aegis-proxy) — L4 TCP proxy, `io_uring`, thread-per-core
-- [chronos_lsm](https://github.com/baltasarblanco/chronos_lsm) — LSM key-value store, WAL, bloom filters, compaction
-- [celer_mock](https://github.com/baltasarblanco/celer_mock) — cross-process events over `memfd` + `SCM_RIGHTS`
-
-</details>
